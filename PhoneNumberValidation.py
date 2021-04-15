@@ -4,4 +4,3 @@ for i in range(len(message)):
     chunk = message[i:i+12]
     if isPhoneNumber(chunk):
         print("phone Number Found: " + chunk)
-
