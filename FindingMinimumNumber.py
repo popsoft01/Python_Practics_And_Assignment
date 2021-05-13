@@ -9,5 +9,5 @@ if secondNumber < minimum:
 
 if thirdNumber < minimum:
     minimum = thirdNumber
-    
+
 print("Minimum number is ", minimum)
