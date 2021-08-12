@@ -5,3 +5,4 @@ def string_check(word):
         for j in range(letter, len(word)):
             if word[letter] not in find_letter:
                 find_letter = word[j]
+                l_num = max(l_num,len(word))
