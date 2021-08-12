@@ -4,12 +4,12 @@ def string_check(word):
         find_letter = " "
         for j in range(letter, len(word)):
             if word[letter] not in find_letter:
-                find_letter = word[j]
+                find_letter += word[j]
                 l_num = max(l_num, len(find_letter))
             else:
                 break
     return l_num
 
 
-sprint = string_check("bessyjane")
+sprint = string_check("bessyjane kingsley")
 print(sprint)
